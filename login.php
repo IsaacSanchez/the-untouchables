@@ -5,7 +5,7 @@ if(isset($_POST['signIn']))
 {
 	if($_POST['id']=="" || $_POST['pwd']=="")
 	{
-	$err="fill your id and passwrod first";
+	$err="fill your id and password first";
 	}
 	else
 	{
